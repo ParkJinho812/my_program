@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>하와이 여행 가이드 - 10609 박진호</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .navbar-brand {
+      font-size: 24px; /* 폰트 사이즈 조정 */
+      font-weight: bold; /* 폰트 굵기 조정 */
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+    }
+    .navbar {
+      margin-bottom: 30px;
+    }
+    .section {
+      padding: 60px 0;
+    }
+    .bg-light {
+      background-color: #f8f9fa !important;
+    }
+    .bg-primary {
+      background-color: #007bff !important;
+      color: white;
+    }
+    .bg-secondary {
+      background-color: #6c757d !important;
+      color: white;
+    }
+    .bg-success {
+      background-color: #28a745 !important;
+      color: white;
+    }
+    .bg-info {
+      background-color: #17a2b8 !important;
+      color: white;
+    }
+    h2 {
+      margin-bottom: 30px;
+    }
+    .carousel-inner img,
+    .attraction-item img {
+      width: 100%;
+      height: auto;
+    }
+    .modal-body img {
+      max-width: 100%;
+      height: auto;
+    }
+    footer {
+      background-color: #f8f9fa;
+      padding: 20px 0;
+    }
+    .attraction-item {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .btn-details {
+      font-size: 12px;
+      padding: 5px 10px;
+    }
+    iframe {
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <!-- 내비게이션 바 - 항목을 변경하거나 추가할 수 있습니다 -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">하와이 여행 가이드 - 10609 박진호</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#overview">개요</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#history">역사</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#attractions">관광지</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tips">여행 팁</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 개요 섹션 -->
+  <section id="overview" class="section bg-primary">
+    <div class="container">
+      <h2 class="text-center">개요</h2>
+      <p>미국에 마지막으로 편입된 50번째 주이자 태평양 한가운데에 있는 제도이다. 대도시와 해양 레저, 쇼핑을 수준급 이상으로 즐길 수 있는 곳이며 무엇보다도 기후가 굉장히 좋다.</p>
+      <!-- 이미지 슬라이드 - 이미지를 변경하려면 src 속성 값을 수정하세요 -->
+      <div id="overviewCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- 여기에 이미지 파일명을 추가하세요 -->
+            <img src="images/하와이1.webp" class="d-block w-100" alt="하와이 개요 1">
+          </div>
+          <div class="carousel-item">
+            <!-- 여기에 이미지 파일명을 추가하세요 -->
+            <img src="images/하와이2.jpg" class="d-block w-100" alt="하와이 개요 2">
+          </div>
+          <div class="carousel-item">
+            <!-- 여기에 이미지 파일명을 추가하세요 -->
+            <img src="images/하와이3.jpg" class="d-block w-100" alt="하와이 개요 3">
+          </div>
+          <div class="carousel-item">
+            <!-- 여기에 이미지 파일명을 추가하세요 -->
+            <img src="images/하와이4.jpg" class="d-block w-100" alt="하와이 개요 4">
+          </div>
+          <div class="carousel-item">
+            <!-- 여기에 이미지 파일명을 추가하세요 -->
+            <img src="images/하와이5.jpg" class="d-block w-100" alt="하와이 개요 5">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#overviewCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">이전</span>
+        </a>
+        <a class="carousel-control-next" href="#overviewCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">다음</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 역사 섹션 -->
+  <section id="history" class="section bg-secondary">
+    <div class="container">
+      <h2 class="text-center">역사</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="attraction-item">
+            <img src="images/하와이역사1.webp" alt="하와이 역사 1" class="img-fluid">
+            <p>카메하메하 1세 대왕이 하와이 제도의 다른 부족 국가들을 모두 정복하고 세운 하와이 왕국에서 유래된다.</p>
+            <a href="#" class="btn btn-primary btn-details" data-toggle="modal" data-target="#historyModal1">상세보기</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="attraction-item">
+            <img src="images/하와이역사2.webp" alt="하와이 역사 2" class="img-fluid">
+            <p>카메하메하의 아들 리홀리호는 잔치에서 남녀의 겸상을 금하던 전통을 거부했고, 그 결과 카푸(금기) 제도가 폐지되었다.</p>
+            <a href="#" class="btn btn-primary btn-details" data-toggle="modal" data-target="#historyModal2">상세보기</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="attraction-item">
+            <img src="images/하와이역사3.jpg" alt="하와이 역사 3" class="img-fluid">
+            <p>카우아이에 최초의 사탕수수 플랜테이션이 생긴다. 하와이 제도의 비옥한 토양이 인정을 받고 농업이 주요 산업이 된다. </p>
+            <a href="#" class="btn btn-primary btn-details" data-toggle="modal" data-target="#historyModal3">상세보기</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 모달 - 역사 1 -->
+  <div class="modal fade" id="historyModal1" tabindex="-1" role="dialog" aria-labelledby="historyModalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="historyModalLabel1">역사 1</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="images/하와이역사1.webp" alt="하와이 역사 1" class="img-fluid">
+          <p>1778년에 제임스 쿡이 하와이로 갔을때, 카메하메하는 쿡의 도움을 받아 마우이 섬의 이아오 밸리, 오아후(O'ahu) 섬의 누우아누 팔리 등에서 부족 간의 전쟁에서 승리를 했으며, 1795년에 오아후 섬을 정복해 마우이 섬을 수도로 세워 하와이 왕국을 세웠다.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 모달 - 역사 2 -->
+  <div class="modal fade" id="historyModal2" tabindex="-1" role="dialog" aria-labelledby="historyModalLabel2" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="historyModalLabel2">역사 2</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="images/하와이역사2.webp" alt="하와이 역사 2" class="img-fluid">
+          <p>카메하메하 1세가 죽자 그의 아들 카메하메하 2세가 왕위를 계승했다. 그의 치세에 첫 기독교 선교사가 왔다. 이 때 카메하메하 2세는 영어 로마자를 받아들여 하와이어 로마자를 만들고 교육하였다.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 모달 - 역사 3 -->
+  <div class="modal fade" id="historyModal3" tabindex="-1" role="dialog" aria-labelledby="historyModalLabel3" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="historyModalLabel3">역사 3</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="images/하와이역사3.jpg" alt="일본 역사 3" class="img-fluid">
+          <p>하와이 사탕수수밭 노동자들은 출신지 별로 모여 살면서 노동의 고통을 감내하며 지냈는데 당시 노동자들의 생활상을 엿볼 수 있는 시설이 하와이 플랜테이션 빌리지(Hawaii's Plantaion Village)다. 와이파우에 있는 플랜테이션 빌리지에는 한국, 중국, 하와이, 일본, 필리핀, 오키나와, 포르투갈, 푸에르토리칸 출신의 8개 민족들의 삶을 한 곳에서 엿볼 수 있다.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 관광지 섹션 -->
+  <section id="attractions" class="section bg-success">
+    <div class="container">
+      <h2 class="text-center">관광지</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="attraction-item">
+            <img src="images/하와이관광지1.jpg" alt="하와이 관광지 1" class="img-fluid">
+            <p>용암을 뿜어내는 화산 분출 양식의 표준이자 판 내부 화산섬(Intraplate ocean island volcano)의 대표이다. </p>
+            <a href="#" class="btn btn-primary btn-details" data-toggle="modal" data-target="#attractionModal1">상세보기</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="attraction-item">
+            <img src="images/하와이관광지3.jpg" alt="하와이 관광지 2" class="img-fluid">
+            <p>폴리네시아계 민족들의 전통문화를 중점적으로 보여주는 테마파크로, 예수 그리스도 후기 성도 교회에서 1963년 개관했다.</p>
+            <a href="#" class="btn btn-primary btn-details" data-toggle="modal" data-target="#attractionModal2">상세보기</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="attraction-item">
+            <img src="images/하와이관광지5.jpg" alt="하와이 관광지 3" class="img-fluid">
+            <p>하와이의 광활한 자연에 위치해 있고 다양한 영화와 광고의 촬영지로 잘 알려져 있다.</p>
+            <a href="#" class="btn btn-primary btn-details" data-toggle="modal" data-target="#attractionModal3">상세보기</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 모달 - 관광지 1 -->
+  <div class="modal fade" id="attractionModal1" tabindex="-1" role="dialog" aria-labelledby="attractionModalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="attractionModalLabel1">관광지 1</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="images/하와이관광지2.jpg" alt="하와이 관광지 1" class="img-fluid">
+          <p>국립공원 내에 들어가 가장 먼저 보게되는 활화산의 증거는 분기공이다. 분기공을 마주치면 발 밑의 땅을 만져보자. 당연하다면 당연하지만 땅이 지열로 인해 뜨끈뜨끈하다. 흐린 날이나 밤에도 태양열이나 그 여열이라고 착각할 정도가 아닌 정도로 따뜻하다.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 모달 - 관광지 2 -->
+  <div class="modal fade" id="attractionModal2" tabindex="-1" role="dialog" aria-labelledby="attractionModalLabel2" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="attractionModalLabel2">관광지 2</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="images/하와이관광지4.jpg" alt="하와이 관광지 2" class="img-fluid">
+          <p>나무를 쪼아 만드는 티키상, 화려한 하와이언 훌라댄스 배우기, 하늘높이 솟아오른 야자수에 맨발로 오르기, 원시사회부터 전해 내려온 문신에 대한 흥미로운 이야기 등 독특한 문화와 역사로 이국적인 폴리네시안 문화의 현장이다.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 모달 - 관광지 3 -->
+  <div class="modal fade" id="attractionModal3" tabindex="-1" role="dialog" aria-labelledby="attractionModalLabel3" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="attractionModalLabel3">관광지 3</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="images/하와이관광지6.webp" alt="하와이 관광지 3" class="img-fluid">
+          <p>승마 투어, ATV, 무비 투어, 프라이빗 비치, SUP(스탠드 업 패들), 짚라인 그리고 많은 다양한 액티비티와 어트랙션을 즐길 수 있는 액티비티 명소이다. 친환경적인 전기 산악 자전거를 타고 깍아지른 산맥부터 바다가 보이는 곳까지 모두 둘러 볼 수 있는 체험 투어를 할 수 있다.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 여행 팁 섹션 -->
+  <section id="tips" class="section bg-info">
+    <div class="container">
+      <h2 class="text-center">여행 팁</h2>
+      <ul>
+        <li>방문하기 좋은 시기: 몇 달에 상관없이 다양한 행사가 열리는 날.</li>
+        <li>언어: 하와이어를 주로 쓴다. 기본적인 영어 단어 일부가 합쳐져서 만들어진 언어지만, 하와이어의 기본 지식을 쌓고 가는 것이 좋다.</li>
+        <li>통화: 미국 달러 (USD).</li>
+        <li>교통: 해외로는 주로 비행기를 통해 진출할 수 있다. 하와이 내에서는 택시와 많은 노선버스가 있어 대중교통망이 매우 편리하다.</li>
+      </ul>
+      <div class="text-center">
+        <!-- 여기에 YouTube 동영상 링크를 추가하세요 -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nZLSfnfYfoU?si=Y_31wrEymLpP1M_7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    </div>
+  </section>
+
+  <footer class="text-center">
+    <p>&copy; 2024 일본 여행 가이드. All rights reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
